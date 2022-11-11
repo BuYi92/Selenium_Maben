@@ -14,9 +14,12 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
 public class BaseClass {
 
-	WebDriver driver;
+	public static WebDriver driver;
 	
 	XSSFWorkbook wbook;
 	XSSFSheet sheet;
